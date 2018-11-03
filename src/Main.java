@@ -3,7 +3,7 @@ import drivers.*;
 public class Main {
 
     public static void main(String[] args) {
-        SimpleDriver sd = new SimpleDriver();
-        sd.drive();
+        Gmail_Login gmail_login = new Gmail_Login();
+        gmail_login.testLogin();
     }
 }

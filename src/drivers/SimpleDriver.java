@@ -9,8 +9,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class SimpleDriver {
-    public SimpleDriver() {
-    }
 
     public void drive() {
         System.setProperty("webdriver.chrome.driver", "C:\\extrenal_libs\\chromedriver.exe");
